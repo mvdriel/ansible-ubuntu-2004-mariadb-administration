@@ -1,4 +1,4 @@
 # vars file for ubuntu-2004-mariadb-administration
 ---
 ubuntu_2004_mariadb_administration_dependencies:
-  - python-mysqldb
+  - python3-mysqldb
