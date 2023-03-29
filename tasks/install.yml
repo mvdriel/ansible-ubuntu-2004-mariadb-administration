@@ -1,6 +1,5 @@
 # tasks file for ubuntu-2004-mariadb-server
 ---
 - name: install | dependencies
-  apt:
-    name: "{{ item }}"
-  with_items: "{{ ubuntu_2004_mariadb_administration_dependencies }}"
+  ansible.builtin.apt:
+    name: "{{ ubuntu_2004_mariadb_administration_dependencies }}"
