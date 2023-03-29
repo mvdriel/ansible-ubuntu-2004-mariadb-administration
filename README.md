@@ -1,5 +1,7 @@
 ## ubuntu-2004-mariadb-administration
 
+[![CI](https://github.com/nlware/ansible-ubuntu-2004-mariadb-administration/workflows/CI/badge.svg)](https://github.com/nlware/ansible-ubuntu-2004-mariadb-administration/actions?query=workflow%3ACI)
+
 Administer databases and users on MariaDB server in Ubuntu 20.04.
 
 #### Variables

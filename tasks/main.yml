@@ -1,8 +1,11 @@
 # tasks file for ubuntu-2004-mariadb-administration
 ---
 
-- include: install.yml
+- name: install
+  ansible.builtin.import_tasks: install.yml
 
-- include: databases.yml
+- name: databases
+  ansible.builtin.import_tasks: databases.yml
 
-- include: users.yml
+- name: users
+  ansible.builtin.import_tasks: users.yml
